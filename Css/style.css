@@ -1,0 +1,245 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    background-color: #4F47CA;
+}
+   
+.inicio img /*Imagem do início*/
+{
+    margin-top: 30px;
+    margin-left: 150px;
+    width: 200px;
+    height: 178px;
+    border-radius: 100%;
+}
+.ini h1
+{
+    display: flex;
+    
+    justify-content: center;
+
+    margin-top: 30px;
+
+    margin-left: 110px;
+
+    text-align: center;
+    
+    font-size: 15px;
+    
+    font-family: Inter;
+    
+    width: 50%;
+
+    height: 40px;
+    
+    background: #FFFFFF;
+    
+    border-radius: 15px;
+}
+.ini img
+{
+   position: absolute;
+
+    width: 31px;
+
+    height: 28px;
+
+    text-align: center;
+
+    margin-top: -40px;
+
+    margin-left: 320px;
+    
+    border-radius: 15px;
+   
+}
+#face h1{
+    display: flex;
+
+    justify-content: center;
+
+    text-align: center;
+
+    margin-top: 40px;
+
+    margin-left: 100px;
+
+    font-size: 15px;
+    
+    font-family: Inter;
+    
+    width: 55%;
+
+    height: 35px;
+    
+    background: #1877F2;
+    
+    border-radius: 15px;
+}
+#face img{
+
+    position: absolute;
+
+    width: 31px;
+
+    height: 28px;
+
+    text-align: center;
+
+    margin-top: -35px;
+
+    margin-left: 330px;
+
+    border-radius: 15px;
+}
+#login h1
+{
+    display: flex;
+    
+    justify-content: center;
+
+    margin-top: 50px;
+
+    margin-left: 110px;
+
+    text-align: center;
+    
+    font-size: 15px;
+    
+    font-family: "Inter";
+    
+    width: 50%;
+
+    height: 40px;
+    
+    background: #FFFFFF;
+
+    color: #000;
+    
+    border-radius: 15px;
+}
+button
+{
+    color: #000;
+
+    text-align: center;
+    
+    border: none;
+    
+    font-family: "Inter";
+    
+    width: 176px;
+   
+    height: 32px;
+   
+    margin-left: 104px;
+    
+    margin-top: 740px;
+   
+    background: #FFFFFF;
+   
+    border-radius: 15px;
+}
+#cada h1
+{
+    margin-top: 40px;
+
+    margin-left: 15px;
+
+    font-size: 20px;
+
+    color: #FFFFFF;
+
+    font-family: "Inter";
+
+    text-align: center;
+}
+
+label
+{
+    display: block;
+
+    margin-top: 20px;
+    
+    text-align: center;
+
+    font-size: 15px;
+
+    margin-left: 200px;
+
+    color: #FFFFFF;
+
+    font-family: "Inter";
+}
+input
+{
+    text-align: center;
+
+    font-family: "Inter";
+
+    border: none;
+
+    border-radius: 15px;
+
+    margin-left: 200px;
+
+    margin-top: 10px;
+    
+    line-height: 10px;
+
+    width: 250px;
+
+    height: 30px;
+}
+input ,::placeholder
+{
+    color: #000;
+}
+.Containerlogin
+{ 
+    display: flex;
+
+    flex-direction: column;
+    
+    align-items: center;
+
+    position: absolute;
+
+    margin-top: 15px;
+
+    margin-left: 120px;
+}
+.Containerlogin button
+{
+    margin-top: 15px;
+
+}
+.Containerlogin button:hover
+{
+color: #000;
+}
+.Container
+{ 
+    display: flex;
+
+    flex-direction: column;
+    
+    align-items: center;
+
+    margin-top: 10px;
+
+    margin-right: 180px;
+}
+.Container button
+{
+    margin-top: 25px;
+
+    margin-right: -50px;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
